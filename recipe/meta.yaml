@@ -11,10 +11,9 @@ source:
   sha256: f9f35ecae8fbf133728c0f9bfb7904e9d7fcb63e8958de009145c432f7262922
 
 build:
-  noarch: generic
   merge_build_host: True  # [win]
   noarch: generic
-  number: 1001
+  number: 1002
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,7 +31,7 @@ test:
 
 about:
   home: http://jamesyili.github.io/rTensor
-  license: GPL (>= 2)
+  license: GPL-3.0-or-later
   summary: A set of tools for creation, manipulation, and modeling of tensors with arbitrary
     number of modes. A tensor in the context of data analysis is a multidimensional
     array. rTensor does this by providing a S4 class 'Tensor' that wraps around the
@@ -45,7 +44,7 @@ about:
     and t-SVD, as defined in Kilmer et al. (2013). Some auxiliary functions include
     the Khatri-Rao product, Kronecker product, and the Hamadard product for a list of
     matrices.
-  license_family: GPL3
+  license_family: GPL
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
