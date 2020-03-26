@@ -44,11 +44,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
     - jdblischak
-    - cbrueffer
-    - dbast
     - PertuyF
     - tbillet17
