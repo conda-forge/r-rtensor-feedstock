@@ -3,7 +3,7 @@ About r-rtensor
 
 Home: https://github.com/rikenbit/rTensor
 
-Package license: GPL-3.0-or-later
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rtensor-feedstock/blob/master/LICENSE.txt)
 
