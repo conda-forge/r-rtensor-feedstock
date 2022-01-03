@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/rikenbit/rTensor
-  license: GPL-3.0-or-later
+  license: GPL-2.0-or-later
   summary: A set of tools for creation, manipulation, and modeling of tensors with arbitrary
     number of modes. A tensor in the context of data analysis is a multidimensional
     array. rTensor does this by providing a S4 class 'Tensor' that wraps around the
